@@ -1,0 +1,35 @@
+Sachi Patel - Cloud & DevOps Engineer Resume
+============================================
+Email: sachi.patel.devops@gmail.com
+Phone: +91 98765 43210
+Location: India
+
+SUMMARY:
+Cloud & DevOps Engineer at Sigzen Technologies specializing in AWS, DigitalOcean, CI/CD automation, Ansible configuration management, Linux system administration, and production observability.
+
+EXPERIENCE:
+Sigzen Technologies | Cloud-DevOps Engineer (Jan 2025 - Present) [Intern -> Full-Time]
+- Managed servers across AWS, DigitalOcean, Frappe Cloud, and internal VMware infrastructure.
+- Designed & optimized GitHub Actions & GitLab CI/CD pipelines (~70% deployment time reduction).
+- Built zero-touch automated deployment flows with webhooks & automated DB migrations.
+- Reduced manual operational effort by ~60% using Ansible, AWX, and Bash.
+- Deployed Prometheus, Grafana, and AWS CloudWatch monitoring stack.
+- Executed production server migrations with zero data loss and minimum downtime.
+- Configured MaxScale load balancer and MariaDB Galera high availability database cluster.
+
+SKILLS:
+Cloud: AWS, DigitalOcean, VMware
+CI/CD & Automation: GitHub Actions, GitLab CI/CD, Ansible, AWX, Docker, Bash
+Monitoring: Prometheus, Grafana, AWS CloudWatch, PMM
+Databases: MariaDB/MySQL, Galera Cluster, MaxScale, Frappe Bench
+Security & System: Linux Administration, WireGuard, Nginx, Microsoft 365, Windows Group Policy
+
+EDUCATION:
+B.E. in Computer Science & Engineering (2021 - 2025)
+Shri S'ad Vidhya Mandal Institute of Technology (Affiliated to GTU)
+CGPA: 8.77 / 10.0
+
+CERTIFICATIONS:
+- AWS Cloud Virtual Internship by AICTE-EduSkills (2024)
+- Introduction to Bash (Microsoft Learn)
+- Introduction to DevOps (Microsoft Learn)

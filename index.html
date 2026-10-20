@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachi Patel | Cloud & DevOps Engineer</title>
+    <meta name="description"
+        content="Cloud & DevOps Engineer specializing in AWS, CI/CD automation, Ansible, Linux, monitoring, infrastructure automation, and reliable production systems.">
+    <meta name="keywords"
+        content="DevOps Engineer, Cloud Engineer, AWS, DigitalOcean, CI/CD, Ansible, AWX, Linux, Prometheus, Grafana, CloudWatch, ERPNext, Frappe, Galera Cluster">
+    <meta name="author" content="Sachi Patel">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Sachi Patel | Cloud & DevOps Engineer">
+    <meta property="og:description"
+        content="Building reliable infrastructure, automating deployments, and engineering scalable cloud environments.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/sachi-patel.jpg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2300f2fe'><path d='M19 13H5v-2h14v2z'/><path d='M12 5v14'/></svg>">
+</head>
+
+<body class="dark-theme">
+    <!-- Particle Background Canvas -->
+    <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+    <!-- Status Ticker Header Bar -->
+    <div class="system-status-ticker" role="region" aria-label="System Operational Banner">
+        <div class="ticker-content">
+            <span class="status-item"><span class="pulse-dot green"></span> SYSTEM OPERATIONAL</span>
+            <span class="ticker-divider">//</span>
+            <span class="status-item"><span class="badge-tag">CI/CD STATUS</span> PASSING</span>
+            <span class="ticker-divider">//</span>
+            <span class="status-item"><span class="badge-tag">DEPLOYMENT</span> ZERO-TOUCH AUTOMATED</span>
+            <span class="ticker-divider">//</span>
+            <span class="status-item"><span class="badge-tag">MONITORING</span> ACTIVE (PROMETHEUS/GRAFANA)</span>
+            <span class="ticker-divider">//</span>
+            <span class="status-item"><span class="badge-tag">INFRASTRUCTURE</span> HEALTHY (AWS/DIGITALOCEAN)</span>
+        </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="main-header" id="navbar">
+        <div class="header-container">
+            <a href="#hero" class="brand-logo" aria-label="Sachi Patel Home">
+                <div class="logo-icon">&gt;_</div>
+                <div class="logo-text">
+                    <span class="logo-name">SACHI PATEL</span>
+                    <span class="logo-sub">DEVOPS_CMD // CLOUD</span>
+                </div>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#journey" class="nav-link">DevOps Journey</a></li>
+                    <li><a href="#production" class="nav-link">Production Eng</a></li>
+                    <li><a href="#achievements" class="nav-link">Impact</a></li>
+                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-grid">
+                <!-- Hero Left Console -->
+                <div class="hero-console">
+                    <div class="availability-badge" id="availability-pill">
+                        <span class="pulse-dot green"></span>
+                        <span class="badge-text">AVAILABLE FOR DEVOPS OPPORTUNITIES</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        <span class="greeting">Hello, I'm</span>
+                        <span class="name-highlight">Sachi Patel</span>
+                    </h1>
+
+                    <h2 class="hero-role">&lt;<span class="role-text">Cloud &amp; DevOps Engineer</span> /&gt;</h2>
+
+                    <p class="hero-description">
+                        Building reliable infrastructure, automating deployments, and engineering scalable cloud
+                        environments. Experienced in AWS, CI/CD automation, Ansible configuration management, Linux
+                        system administration, and production observability.
+                    </p>
+
+                    <div class="hero-cta-group">
+                        <a href="#experience" class="btn btn-primary">
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                            </svg>
+                            View Experience
+                        </a>
+                        <a href="#skills" class="btn btn-secondary">
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                                <line x1="8" y1="21" x2="16" y2="21" />
+                                <line x1="12" y1="17" x2="12" y2="21" />
+                            </svg>
+                            Explore Skills
+                        </a>
+                        <a href="resume/Sachi-Patel-Resume.pdf" download class="btn btn-outline" id="resume-dl-btn">
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                <polyline points="7 10 12 15 17 10" />
+                                <line x1="12" y1="15" x2="12" y2="3" />
+                            </svg>
+                            Resume PDF
+                        </a>
+                    </div>
+
+                    <div class="social-links-bar">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn"
+                            aria-label="GitHub Profile">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                            </svg>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn"
+                            aria-label="LinkedIn Profile">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                            </svg>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://hackerrank.com" target="_blank" rel="noopener noreferrer"
+                            class="social-icon-btn" aria-label="HackerRank Profile">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0L1.605 6v12L12 24l10.395-6V6L12 0zm4.838 15.753h-2.196V12.96H9.358v2.793H7.162V8.247h2.196v2.775h5.284V8.247h2.196v7.506z" />
+                            </svg>
+                            <span>HackerRank</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hero Right Interactive DevOps Visualization -->
+                <div class="hero-visualization">
+                    <div class="pipeline-card">
+                        <div class="pipeline-header">
+                            <div class="window-controls">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="window-title">devops_infrastructure_pipeline.sys</div>
+                            <div class="live-pill"><span class="pulse-dot green"></span> LIVE STREAM</div>
+                        </div>
+
+                        <div class="pipeline-body">
+                            <!-- Flow Diagram Nodes -->
+                            <div class="pipeline-flow">
+                                <div class="pipeline-node active" id="node-dev"
+                                    data-info="Source Code Repository (GitHub / GitLab)">
+                                    <div class="node-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path
+                                                d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+                                            <path d="M9 18c-4.51 2-5-2-7-2" />
+                                        </svg>
+                                    </div>
+                                    <div class="node-label">GitHub / GitLab</div>
+                                    <div class="node-status">COMMITTED</div>
+                                </div>
+
+                                <div class="flow-arrow">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M5 12h14M12 5l7 7-7 7" />
+                                    </svg>
+                                </div>
+
+                                <div class="pipeline-node" id="node-cicd"
+                                    data-info="CI/CD Pipeline Engine (GitHub Actions / GitLab CI)">
+                                    <div class="node-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <circle cx="12" cy="12" r="3" />
+                                            <path
+                                                d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" />
+                                        </svg>
+                                    </div>
+                                    <div class="node-label">CI/CD Pipeline</div>
+                                    <div class="node-status">BUILD &amp; TEST</div>
+                                </div>
+
+                                <div class="flow-arrow">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M5 12h14M12 5l7 7-7 7" />
+                                    </svg>
+                                </div>
+
+                                <div class="pipeline-node" id="node-automation"
+                                    data-info="Infrastructure Automation (Ansible / AWX / Bash)">
+                                    <div class="node-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <polyline points="16 18 22 12 16 6" />
+                                            <polyline points="8 6 2 12 8 18" />
+                                        </svg>
+                                    </div>
+                                    <div class="node-label">Ansible / AWX</div>
+                                    <div class="node-status">CONFIGURED</div>
+                                </div>
+
+                                <div class="flow-arrow">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M5 12h14M12 5l7 7-7 7" />
+                                    </svg>
+                                </div>
+
+                                <div class="pipeline-node" id="node-infra"
+                                    data-info="Cloud & Virtual Infrastructure (AWS / DigitalOcean / VMware)">
+                                    <div class="node-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z" />
+                                        </svg>
+                                    </div>
+                                    <div class="node-label">Cloud Infra</div>
+                                    <div class="node-status">DEPLOYED</div>
+                                </div>
+
+                                <div class="flow-arrow">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M5 12h14M12 5l7 7-7 7" />
+                                    </svg>
+                                </div>
+
+                                <div class="pipeline-node" id="node-monitor"
+                                    data-info="Observability Engine (Prometheus / Grafana / CloudWatch)">
+                                    <div class="node-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                                        </svg>
+                                    </div>
+                                    <div class="node-label">Monitoring</div>
+                                    <div class="node-status">OBSERVING</div>
+                                </div>
+                            </div>
+
+                            <div class="pipeline-info-box" id="pipeline-info-display">
+                                <span class="prompt-prefix">sys_log:</span> Hover or tap any pipeline node to inspect
+                                real-time deployment status details.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Statistics Grid -->
+            <div class="hero-stats-container">
+                <div class="container grid-4">
+                    <div class="metric-card">
+                        <div class="metric-value" data-target="70" data-prefix="~" data-suffix="%">~70%</div>
+                        <div class="metric-label">Deployment Time Reduction</div>
+                        <div class="metric-sub">CI/CD GitHub Actions &amp; GitLab CI</div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-value" data-target="60" data-prefix="~" data-suffix="%">~60%</div>
+                        <div class="metric-label">Manual Effort Reduction</div>
+                        <div class="metric-sub">Ansible + AWX + Bash Automation</div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-value">Zero</div>
+                        <div class="metric-label">Data Loss Migration</div>
+                        <div class="metric-sub">Minimum Downtime Production Cutover</div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-value">Zero-Touch</div>
+                        <div class="metric-label">Deployment Automation</div>
+                        <div class="metric-sub">Webhook Code Sync &amp; Auto Migration</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="section-padding about-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-subtitle">// 01. PROFILE OVERVIEW</div>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="about-grid">
+                    <!-- Left: Bio & Image -->
+                    <div class="about-bio-card">
+                        <div class="profile-image-container">
+                            <img src="assets/images/sachi-patel.jpg" alt="Sachi Patel - Cloud &amp; DevOps Engineer"
+                                class="profile-img">
+                            <div class="profile-frame-border"></div>
+                            <div class="profile-badge">
+                                <span class="badge-icon">☁️</span>
+                                <span>Cloud-DevOps Engineer</span>
+                            </div>
+                        </div>
+
+                        <div class="bio-text">
+                            <p class="lead-para">
+                                I am a dedicated <strong>Cloud &amp; DevOps Engineer</strong> currently engineering
+                                production infrastructure at <strong>Sigzen Technologies</strong>. I specialize in
+                                bridging software development and infrastructure operations through automated CI/CD
+                                pipelines, configuration management, and robust cloud deployments.
+                            </p>
+                            <p>
+                                With a solid academic background in Computer Science Engineering (CGPA 8.77) and
+                                hands-on experience managing AWS, DigitalOcean, and VMware environments, I am passionate
+                                about eliminating manual operational overhead, optimizing system reliability, and
+                                establishing zero-downtime deployment pipelines.
+                            </p>
+
+                            <div class="profile-specs">
+                                <div class="spec-item">
+                                    <span class="spec-label">Current Role:</span>
+                                    <span class="spec-val">Cloud-DevOps Engineer @ Sigzen Technologies</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-label">Career Path:</span>
+                                    <span class="spec-val">Intern &rarr; Full-Time Engineer</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-label">Education:</span>
+                                    <span class="spec-val">B.E. Computer Science (GTU) &bull; CGPA 8.77</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-label">Core Focus:</span>
+                                    <span class="spec-val">CI/CD, AWS, Azure, Ansible, Linux, Monitoring, Docker</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Interactive Terminal Card -->
+                    <div class="about-terminal-card">
+                        <div class="terminal-header">
+                            <div class="window-controls">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="window-title">bash — sachi@devops-node-01:~</div>
+                            <div class="terminal-actions">
+                                <button class="term-btn" id="clear-term-btn" title="Clear Terminal">Clear</button>
+                            </div>
+                        </div>
+
+                        <div class="terminal-body" id="terminal-screen">
+                            <div class="terminal-line"><span class="prompt">sachi@devops:~$</span> <span
+                                    class="cmd-text">whoami</span></div>
+                            <div class="terminal-output">sachi_patel // cloud-devops-engineer</div>
+
+                            <div class="terminal-line"><span class="prompt">sachi@devops:~$</span> <span
+                                    class="cmd-text">uptime</span></div>
+                            <div class="terminal-output">production systems: 99.99% reliable // minimal downtime
+                            </div>
+
+                            <div class="terminal-line"><span class="prompt">sachi@devops:~$</span> <span
+                                    class="cmd-text">automation --stack</span></div>
+                            <div class="terminal-output">ansible + awx + bash + github-actions + gitlab-ci + microsoft-power automation</div>
+
+                            <div class="terminal-line"><span class="prompt">sachi@devops:~$</span> <span
+                                    class="cmd-text">monitoring --status</span></div>
+                            <div class="terminal-output">prometheus + grafana + aws-cloudwatch + azure monitoring+ pmm [ALL SYSTEMS
+                                HEALTHY]</div>
+
+                            <div class="terminal-line"><span class="prompt">sachi@devops:~$</span> <span
+                                    class="cmd-text">deployment --strategy</span></div>
+                            <div class="terminal-output">zero-touch // webhook auto-sync 
+                            </div>
+
+                            <!-- Interactive CLI Prompt -->
+                            <div class="interactive-prompt-line">
+                                <span class="prompt">sachi@devops:~$</span>
+                                <input type="text" id="terminal-input" class="term-input" autocomplete="off"
+                                    spellcheck="false" placeholder="type 'help', 'skills', 'impact', or 'contact'...">
+                            </div>
+                        </div>
+                        <div class="terminal-footer">
+                            <span>Tip: Type <code>help</code> to see available terminal commands</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DevOps Engineering Stack Section -->
+        <section id="skills" class="section-padding skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-subtitle">// 02. TECHNICAL CAPABILITIES</div>
+                    <h2 class="section-title">DevOps Engineering Stack</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Category 1: Cloud & DevOps -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="category-icon">☁️</div>
+                            <h3>Cloud &amp; DevOps</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-pill"
+                                data-desc="Production compute, CloudWatch monitoring, storage, and cloud infrastructure management.">
+                                <span class="skill-name">AWS</span>
+                                <span class="skill-cat">Cloud</span>
+                            </div>
+                            <div class="skill-pill"
+                                data-desc="Production compute, Azure monitoring, storage, and cloud infrastructure management.">
+                                <span class="skill-name">Azure</span>
+                                <span class="skill-cat">Cloud</span>
+                            </div>
+                            <div class="skill-pill"
+                                data-desc="Droplet provisioning, cloud networking, and cost-effective cloud server management.">
+                                <span class="skill-name">DigitalOcean</span>
+                                <span class="skill-cat">Cloud</span>
+                            </div>
+                            <div class="skill-pill"
+                                data-desc="Automated workflow design, matrix builds, deployment pipelines (~70% speed reduction).">
+                                <span class="skill-name">GitHub Actions</span>
+                                <span class="skill-cat">CI/CD</span>
+                            </div>
+                            <div class="skill-pill"
+                                data-desc="GitLab runner configuration, pipeline optimization, and automated environment deployment.">
+                                <span class="skill-name">GitLab CI/CD</span>
+                                <span class="skill-cat">CI/CD</span>
+                            </div>
+                            <div class="skill-pill"
+                                data-desc="Application containerization, image optimization.">
+                                <span class="skill-name">Docker</span>
+                                <span class="skill-cat">Containers</span>
+                            </div>
+                            <div class="skill-pill"
+                                data-desc="On-premise virtualization, internal infrastructure administration, ESXi virtual machine deployment.">
+                                <span class="skill-name">VMware</span>
+                                <span class="skill-cat">Virtualization</span>
+                            </div>
+                            <div class="skill-pill"
+                                data-desc="Infrastructure playbooks, system configuration, automated provisioning (~60% effort reduction).">
+                                <span class="skill-name">Ansible &amp; AWX</span>
+                                <span class="skill-cat">Automation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 2: System & Networking -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="category-icon">🐧</div>
+                            <h3>System &amp; Networking</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-pill"
+                                data-desc="Deep server administration, user access management, service hardening.">
+                                <span class="skill-name">Ubuntu / Linux Admin</span>
+                                <span class="skill-cat">OS</span>
+                            </div>
+                            <div class="skill-pill"
+                                data-desc="Secure VPN tunnels, encrypted inter-server connectivity, remote site configuration.">
+                                <span class="skill-name">WireGuard</span>
+                                <span class="skill-cat">Security</span>
+                            </div>
+                            <div class="skill-pill"
+                                data-desc="Reverse proxy configuration, SSL/TLS termination, web server virtual hosts, HTTP header security.">
+                                <span class="skill-name">Nginx</span>
+                                <span class="skill-cat">Web Server</span>
+                            </div>
+                            <div class="skill-pill"
+                                data-desc="TCP/IP, DNS management, firewall rules (UFW/iptables), routing, ports and proxying.">
+                                <span class="skill-name">Networking &amp; Protocols</span>
+                                <span class="skill-cat">Networking</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 3: Databases & Monitoring -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="category-icon">📊</div>
+                            <h3>Databases &amp; Monitoring</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-pill"
+                                data-desc="Frappe CLI environment management, site creation, app deployments, bench setup.">
+                                <span class="skill-name">Frappe Bench</span>
+                                <span class="skill-cat">ERP Infra</span>
+                            </div>
+                            <div class="skill-pill"
+                                data-desc="Database administration, query optimization, automated backups, restoration procedures.">
+                                <span class="skill-name">MariaDB / MySQL</span>
+                                <span class="skill-cat">Database</span>
+                            </div>
+                            <div class="skill-pill"
+                                data-desc="Multi-master database synchronous replication, fault tolerance, zero-downtime clustering.">
+                                <span class="skill-name">Galera Cluster</span>
+                                <span class="skill-cat">HA Database</span>
+                            </div>
+                            <div class="skill-pill"
+                                data-desc="Database load balancer, query routing, read/write splitting, node health monitoring.">
+                                <span class="skill-name">MaxScale</span>
+                                <span class="skill-cat">Proxy</span>
+                            </div>
+                            <div class="skill-pill"
+                                data-desc="Time-series metrics collection, node exporter metrics, alert manager rule definition.">
+                                <span class="skill-name">Prometheus</span>
+                                <span class="skill-cat">Observability</span>
+                            </div>
+                            <div class="skill-pill"
+                                data-desc="Infrastructure dashboard creation, real-time metrics visualizer, alert notifications.">
+                                <span class="skill-name">Grafana</span>
+                                <span class="skill-cat">Dashboard</span>
+                            </div>
+                            <div class="skill-pill"
+                                data-desc="AWS resource monitoring, log groups, cloud alarms, system performance tracking.">
+                                <span class="skill-name">AWS CloudWatch</span>
+                                <span class="skill-cat">AWS Monitor</span>
+                            </div>
+                            <div class="skill-pill"
+                                data-desc="Percona Monitoring and Management for deep MySQL/MariaDB database performance analysis.">
+                                <span class="skill-name">PMM</span>
+                                <span class="skill-cat">DB Ops</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 4: Programming & Scripting -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="category-icon">💻</div>
+                            <h3>Scripting &amp; Programming</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-pill"
+                                data-desc="Shell automation scripts, backup cron jobs, environment setup scripts, maintenance utilities.">
+                                <span class="skill-name">Bash</span>
+                                <span class="skill-cat">Scripting</span>
+                            </div>
+                            <div class="skill-pill"
+                                data-desc="Automation scripts, infrastructure tooling, API integrations, data processing scripts.">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-cat">Programming</span>
+                            </div>
+                            <div class="skill-pill"
+                                data-desc="Database querying, schema migrations, table maintenance, index optimizations.">
+                                <span class="skill-name">SQL</span>
+                                <span class="skill-cat">Database</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 5: Tools & Administration -->
+                    <div class="skill-category-card full-width">
+                        <div class="category-header">
+                            <div class="category-icon">🛠️</div>
+                            <h3>Tools &amp; Enterprise Administration</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-pill"
+                                data-desc="Version control, branching strategy, webhooks, pull request reviews.">
+                                <span class="skill-name">GitHub</span>
+                                <span class="skill-cat">VCS</span>
+                            </div>
+                            <div class="skill-pill"
+                                data-desc="Self-hosted repository management, runner management, access governance.">
+                                <span class="skill-name">GitLab</span>
+                                <span class="skill-cat">VCS</span>
+                            </div>
+                            <div class="skill-pill"
+                                data-desc="Tenant administration, user identity, security compliance, Exchange/SharePoint admin.">
+                                <span class="skill-name">Microsoft 365 Administration</span>
+                                <span class="skill-cat">Enterprise</span>
+                            </div>
+                            <div class="skill-pill"
+                                data-desc="Active Directory GPO policy enforcement, security compliance, workstation domain control.">
+                                <span class="skill-name">Windows Group Policy Management</span>
+                                <span class="skill-cat">Enterprise</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section-padding experience-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-subtitle">// 03. PROFESSIONAL MILESTONES</div>
+                    <h2 class="section-title">Engineering Experience</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="experience-timeline">
+                    <!-- Main Company Card -->
+                    <div class="timeline-company-card">
+                        <div class="company-header-bar">
+                            <div class="company-brand">
+                                <div class="company-logo-badge">ST</div>
+                                <div>
+                                    <h3 class="company-name">Sigzen Technologies</h3>
+                                    <div class="company-role">Cloud-DevOps Engineer</div>
+                                </div>
+                            </div>
+                            <div class="company-meta">
+                                <span class="duration-pill">Jan 2025 – Present</span>
+                                <span class="badge-progression">Intern &rarr; Full-Time</span>
+                            </div>
+                        </div>
+
+                        <p class="company-summary">
+                            Driving cloud infrastructure reliability, multi-cloud server deployments, CI/CD pipeline
+                            automation, and production observability across enterprise ERPNext/Frappe and cloud systems.
+                        </p>
+
+                        <!-- Highlights Sub-Grid -->
+                        <div class="engineering-highlights-grid">
+                            <!-- 1. Infrastructure Management -->
+                            <div class="exp-subcard">
+                                <div class="subcard-header">
+                                    <span class="subcard-icon">⚡</span>
+                                    <h4>Multi-Cloud Infrastructure Management</h4>
+                                </div>
+                                <p>
+                                    Managed production and staging servers across <strong>AWS</strong>,
+                                    <strong>DigitalOcean</strong>, <strong>Frappe Cloud</strong>, and internal
+                                    <strong>VMware</strong> virtualization environments.
+                                </p>
+                                <ul class="check-list">
+                                    <li>Enforced high availability and system fault tolerance</li>
+                                    <li>Applied security compliance and OS-level hardening</li>
+                                    <li>Maintained internal VMware ESXi virtual hosts</li>
+                                </ul>
+                            </div>
+
+                            <!-- 2. CI/CD Automation -->
+                            <div class="exp-subcard">
+                                <div class="subcard-header">
+                                    <span class="subcard-icon">🚀</span>
+                                    <h4>CI/CD Pipeline Optimization</h4>
+                                </div>
+                                <p>
+                                    Designed, built, and optimized automated continuous integration and delivery
+                                    pipelines using <strong>GitHub Actions</strong> and <strong>GitLab CI/CD</strong>.
+                                </p>
+                                <div class="subcard-metric">
+                                    <span class="metric-num">~70%</span>
+                                    <span class="metric-desc">Reduction in deployment time with zero manual error
+                                        rate</span>
+                                </div>
+                            </div>
+
+                            <!-- 3. Zero-Touch Deployment -->
+                            <div class="exp-subcard full-span">
+                                <div class="subcard-header">
+                                    <span class="subcard-icon">🤖</span>
+                                    <h4>Zero-Touch Automated Deployment Flow</h4>
+                                    <span class="badge-tag green">FEATURED AUTOMATION</span>
+                                </div>
+                                <p>
+                                    Engineered a fully automated zero-touch deployment workflow triggered on code
+                                    repository events.
+                                </p>
+
+                                <div class="zero-touch-diagram">
+                                    <div class="zt-step">
+                                        <div class="zt-num">01</div>
+                                        <div class="zt-text">Code Push</div>
+                                    </div>
+                                    <div class="zt-arrow">&rarr;</div>
+                                    <div class="zt-step">
+                                        <div class="zt-num">02</div>
+                                        <div class="zt-text">Webhook</div>
+                                    </div>
+                                    <div class="zt-arrow">&rarr;</div>
+                                    <div class="zt-step">
+                                        <div class="zt-num">03</div>
+                                        <div class="zt-text">Code Sync</div>
+                                    </div>
+                                    <div class="zt-arrow">&rarr;</div>
+                                    <div class="zt-step">
+                                        <div class="zt-num">04</div>
+                                        <div class="zt-text">DB Migration</div>
+                                    </div>
+                                    <div class="zt-arrow">&rarr;</div>
+                                    <div class="zt-step">
+                                        <div class="zt-num">05</div>
+                                        <div class="zt-text">App Deploy</div>
+                                    </div>
+                                    <div class="zt-arrow">&rarr;</div>
+                                    <div class="zt-step">
+                                        <div class="zt-num">06</div>
+                                        <div class="zt-text">Health Check</div>
+                                    </div>
+                                    <div class="zt-arrow">&rarr;</div>
+                                    <div class="zt-step highlight">
+                                        <div class="zt-num">07</div>
+                                        <div class="zt-text">Production</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 4. Infrastructure Automation -->
+                            <div class="exp-subcard">
+                                <div class="subcard-header">
+                                    <span class="subcard-icon">📦</span>
+                                    <h4>Configuration Management &amp; Ansible</h4>
+                                </div>
+                                <p>
+                                    Leveraged <strong>Ansible</strong>, <strong>AWX</strong>, and <strong>Bash</strong>
+                                    scripts to automate repetitive infrastructure operations, software provisioning, and
+                                    configuration updates.
+                                </p>
+                                <div class="subcard-metric">
+                                    <span class="metric-num">~60%</span>
+                                    <span class="metric-desc">Reduction in manual operational effort across fleet
+                                        servers</span>
+                                </div>
+                            </div>
+
+                            <!-- 5. Monitoring & Observability -->
+                            <div class="exp-subcard">
+                                <div class="subcard-header">
+                                    <span class="subcard-icon">📈</span>
+                                    <h4>Monitoring &amp; Observability Stack</h4>
+                                </div>
+                                <p>
+                                    Deployed end-to-end monitoring using <strong>Prometheus</strong>,
+                                    <strong>Grafana</strong>, and <strong>AWS CloudWatch</strong> for real-time
+                                    telemetry and alerting.
+                                </p>
+                                <div class="subcard-highlight-text">
+                                    &bull; Dramatically reduced Incident Detection Time (MTTD)
+                                </div>
+                            </div>
+
+                            <!-- 6. Production Migration -->
+                            <div class="exp-subcard full-span">
+                                <div class="subcard-header">
+                                    <span class="subcard-icon">🔄</span>
+                                    <h4>Zero-Data-Loss Server Migration Architecture</h4>
+                                    <span class="badge-tag green">RELIABILITY GUARANTEE</span>
+                                </div>
+                                <div class="migration-layout">
+                                    <div class="migration-diagram">
+                                        <div class="mig-box source">
+                                            <div class="box-title">SOURCE SERVER</div>
+                                            <div class="box-items">
+                                                <span>&bull; Database</span>
+                                                <span>&bull; Files &amp; Media</span>
+                                                <span>&bull; Config Files</span>
+                                            </div>
+                                        </div>
+                                        <div class="mig-connector">
+                                            <div class="mig-label">MIGRATION PIPELINE</div>
+                                            <div class="mig-arrow-animated">&rArr;</div>
+                                            <div class="mig-sublabel">DNS Cutover</div>
+                                        </div>
+                                        <div class="mig-box dest">
+                                            <div class="box-title">DESTINATION SERVER</div>
+                                            <div class="box-status">LIVE // ZERO DATA LOSS</div>
+                                        </div>
+                                    </div>
+                                    <div class="migration-text">
+                                        Executed complex production server migrations transferring live databases, media
+                                        files, and environment configurations while maintaining strict zero data loss
+                                        and minimal service window downtime.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 7. ERPNext / Frappe Operations -->
+                            <div class="exp-subcard">
+                                <div class="subcard-header">
+                                    <span class="subcard-icon">⚙️</span>
+                                    <h4>ERPNext &amp; Frappe Infrastructure Ops</h4>
+                                </div>
+                                <p>
+                                    Specialized experience in ERPNext/Frappe enterprise stack management:
+                                </p>
+                                <ul class="check-list">
+                                    <li>Custom bench environment installations &amp; upgrades</li>
+                                    <li>Performance troubleshooting &amp; worker tuning</li>
+                                    <li>Automated database backups &amp; partial site restores</li>
+                                </ul>
+                            </div>
+
+                            <!-- 8. High Availability Database Architecture -->
+                            <div class="exp-subcard">
+                                <div class="subcard-header">
+                                    <span class="subcard-icon">🛡️</span>
+                                    <h4>High Availability Database Architecture</h4>
+                                </div>
+                                <div class="ha-db-diagram">
+                                    <div class="ha-proxy">
+                                        <span class="ha-node-title">MaxScale Load Balancer</span>
+                                        <span class="ha-sub">Query Routing / Read-Write Split</span>
+                                    </div>
+                                    <div class="ha-split-lines"></div>
+                                    <div class="ha-nodes-row">
+                                        <div class="ha-node">MariaDB Node 1</div>
+                                        <div class="ha-node">MariaDB Node 2</div>
+                                        <div class="ha-node">MariaDB Node 3</div>
+                                    </div>
+                                    <div class="ha-cluster-bar">
+                                        <span>Galera Cluster (Synchronous Replication)</span>
+                                    </div>
+                                </div>
+                                <div class="subcard-highlight-text text-center">
+                                    HIGH AVAILABILITY // FAULT TOLERANT DATABASE
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DevOps Journey Section -->
+        <section id="journey" class="section-padding journey-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-subtitle">// 04. ENGINEERING LIFECYCLE</div>
+                    <h2 class="section-title">The DevOps Journey</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="journey-timeline-container">
+                    <div class="journey-track">
+                        <!-- Stage 1 -->
+                        <div class="journey-stage-card">
+                            <div class="stage-num">01</div>
+                            <div class="stage-icon">💻</div>
+                            <h3 class="stage-title">Development</h3>
+                            <p class="stage-desc">Standardizing environment configs, dependency setups, and python/bash
+                                scripts.</p>
+                            <div class="stage-tech">Python, Bash, ERPNext</div>
+                        </div>
+
+                        <!-- Stage 2 -->
+                        <div class="journey-stage-card">
+                            <div class="stage-num">02</div>
+                            <div class="stage-icon">🌿</div>
+                            <h3 class="stage-title">Version Control</h3>
+                            <p class="stage-desc">Enforcing Git branching models, commit standards, and pull request
+                                reviews.</p>
+                            <div class="stage-tech">GitHub, GitLab</div>
+                        </div>
+
+                        <!-- Stage 3 -->
+                        <div class="journey-stage-card">
+                            <div class="stage-num">03</div>
+                            <div class="stage-icon">⚙️</div>
+                            <h3 class="stage-title">CI/CD Pipeline</h3>
+                            <p class="stage-desc">Automating linting, testing, and artifact building for fast feedback
+                                loops.</p>
+                            <div class="stage-tech">GitHub Actions, GitLab CI</div>
+                        </div>
+
+                        <!-- Stage 4 -->
+                        <div class="journey-stage-card">
+                            <div class="stage-num">04</div>
+                            <div class="stage-icon">🤖</div>
+                            <h3 class="stage-title">Automation</h3>
+                            <p class="stage-desc">Writing Ansible playbooks and AWX templates to replace manual setup
+                                scripts.</p>
+                            <div class="stage-tech">Ansible, AWX</div>
+                        </div>
+
+                        <!-- Stage 5 -->
+                        <div class="journey-stage-card">
+                            <div class="stage-num">05</div>
+                            <div class="stage-icon">☁️</div>
+                            <h3 class="stage-title">Infrastructure</h3>
+                            <p class="stage-desc">Provisioning compute instances, virtual hosts, and high availability
+                                DB clusters.</p>
+                            <div class="stage-tech">AWS, DigitalOcean, VMware</div>
+                        </div>
+
+                        <!-- Stage 6 -->
+                        <div class="journey-stage-card">
+                            <div class="stage-num">06</div>
+                            <div class="stage-icon">📦</div>
+                            <h3 class="stage-title">Deployment</h3>
+                            <p class="stage-desc">Executing zero-touch deployments with webhook synchronization and auto
+                                DB migration.</p>
+                            <div class="stage-tech">Docker, Frappe Bench</div>
+                        </div>
+
+                        <!-- Stage 7 -->
+                        <div class="journey-stage-card">
+                            <div class="stage-num">07</div>
+                            <div class="stage-icon">📊</div>
+                            <h3 class="stage-title">Monitoring</h3>
+                            <p class="stage-desc">Collecting system metrics, logs, and database telemetry in real-time
+                                dashboards.</p>
+                            <div class="stage-tech">Prometheus, Grafana, CloudWatch</div>
+                        </div>
+
+                        <!-- Stage 8 -->
+                        <div class="journey-stage-card">
+                            <div class="stage-num">08</div>
+                            <div class="stage-icon">🚨</div>
+                            <h3 class="stage-title">Incident Response</h3>
+                            <p class="stage-desc">Rapid root cause diagnosis, log analysis, service recovery, and
+                                partial restores.</p>
+                            <div class="stage-tech">PMM, Linux Syslogs</div>
+                        </div>
+
+                        <!-- Stage 9 -->
+                        <div class="journey-stage-card">
+                            <div class="stage-num">09</div>
+                            <div class="stage-icon">🔄</div>
+                            <h3 class="stage-title">Continuous Improvement</h3>
+                            <p class="stage-desc">Iterative performance tuning, security hardening, and infrastructure
+                                cost optimization.</p>
+                            <div class="stage-tech">SRE Best Practices</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Production Engineering Pillars Section -->
+        <section id="production" class="section-padding production-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-subtitle">// 05. CORE PILLARS</div>
+                    <h2 class="section-title">Production Engineering</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="production-grid">
+                    <!-- Card 1: Automation -->
+                    <div class="prod-card">
+                        <div class="prod-icon">🤖</div>
+                        <h3>Automation</h3>
+                        <p>Eliminating toil through reproducible Ansible playbooks, AWX job templates, and robust Bash
+                            shell scripting.</p>
+                        <div class="prod-tags">
+                            <span>Ansible</span>
+                            <span>AWX</span>
+                            <span>Bash</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Reliability -->
+                    <div class="prod-card">
+                        <div class="prod-icon">🛡️</div>
+                        <h3>Reliability</h3>
+                        <p>Ensuring 99.99% system availability through fault-tolerant architectures, health checks, and
+                            server maintenance.</p>
+                        <div class="prod-tags">
+                            <span>High Availability</span>
+                            <span>Server Ops</span>
+                            <span>Failover</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Observability -->
+                    <div class="prod-card">
+                        <div class="prod-icon">👁️</div>
+                        <h3>Observability</h3>
+                        <p>Transforming raw system telemetry into actionable Grafana dashboards, Prometheus alerts, and
+                            CloudWatch metrics.</p>
+                        <div class="prod-tags">
+                            <span>Prometheus</span>
+                            <span>Grafana</span>
+                            <span>CloudWatch</span>
+                            <span>PMM</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 4: Security -->
+                    <div class="prod-card">
+                        <div class="prod-icon">🔒</div>
+                        <h3>Security</h3>
+                        <p>Hardening Linux servers, configuring WireGuard VPN tunnels, UFW firewall rules, and access
+                            control governance.</p>
+                        <div class="prod-tags">
+                            <span>WireGuard</span>
+                            <span>Linux Admin</span>
+                            <span>Infra Security</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 5: Deployment -->
+                    <div class="prod-card">
+                        <div class="prod-icon">🚢</div>
+                        <h3>Deployment</h3>
+                        <p>Engineered zero-touch CD pipelines that sync code, run migrations, and verify system health
+                            automatically.</p>
+                        <div class="prod-tags">
+                            <span>GitHub Actions</span>
+                            <span>GitLab CI</span>
+                            <span>Zero-Touch</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 6: Database Ops -->
+                    <div class="prod-card">
+                        <div class="prod-icon">🗄️</div>
+                        <h3>Database Engineering</h3>
+                        <p>Managing high-concurrency MariaDB/MySQL instances, Galera multi-master clustering, and
+                            MaxScale load balancing.</p>
+                        <div class="prod-tags">
+                            <span>MariaDB</span>
+                            <span>Galera Cluster</span>
+                            <span>MaxScale</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievement Dashboard Section -->
+        <section id="achievements" class="section-padding achievements-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-subtitle">// 06. MEASURABLE RESULTS</div>
+                    <h2 class="section-title">Engineering Impact Dashboard</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="dashboard-window">
+                    <div class="window-header">
+                        <div class="window-controls">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="window-title">impact_metrics_dashboard.sys</div>
+                        <div class="badge-tag green">VERIFIED IMPACT</div>
+                    </div>
+
+                    <div class="dashboard-grid">
+                        <div class="dash-metric-card">
+                            <div class="dash-metric-number" data-count="70" data-prefix="~" data-suffix="%">~70%</div>
+                            <div class="dash-metric-title">Deployment Time Reduction</div>
+                            <div class="dash-metric-detail">Achieved by designing and optimizing automated GitHub
+                                Actions and GitLab CI/CD pipelines.</div>
+                        </div>
+
+                        <div class="dash-metric-card">
+                            <div class="dash-metric-number" data-count="60" data-prefix="~" data-suffix="%">~60%</div>
+                            <div class="dash-metric-title">Manual Effort Reduction</div>
+                            <div class="dash-metric-detail">Attained by implementing Ansible playbooks, AWX
+                                orchestration, and shell automation.</div>
+                        </div>
+
+                        <div class="dash-metric-card">
+                            <div class="dash-metric-number">0</div>
+                            <div class="dash-metric-title">Data Loss Migration</div>
+                            <div class="dash-metric-detail">Maintained complete data integrity during complex live
+                                production server cutovers.</div>
+                        </div>
+
+                        <div class="dash-metric-card">
+                            <div class="dash-metric-number">Zero-Touch</div>
+                            <div class="dash-metric-title">Deployment Automation</div>
+                            <div class="dash-metric-detail">Fully automated code push webhook to production deployment
+                                with health checks.</div>
+                        </div>
+
+                        <div class="dash-metric-card full-span">
+                            <div class="dash-metric-number">High Availability</div>
+                            <div class="dash-metric-title">Multi-Node Database Architecture</div>
+                            <div class="dash-metric-detail">Configured MaxScale query routing fronting a MariaDB Galera
+                                Cluster for seamless fault tolerance.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section-padding certs-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-subtitle">// 07. CREDENTIALS</div>
+                    <h2 class="section-title">Certifications</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="certs-grid">
+                    <!-- Cert 1 -->
+                    <div class="cert-card">
+                        <div class="cert-badge-icon">☁️</div>
+                        <div class="cert-info">
+                            <h3 class="cert-title">AWS Cloud Virtual Internship</h3>
+                            <div class="cert-issuer">AICTE - EduSkills</div>
+                            <div class="cert-year">2024</div>
+                        </div>
+                        <div class="cert-tag">Verified</div>
+                    </div>
+
+                    <!-- Cert 2 -->
+                    <div class="cert-card">
+                        <div class="cert-badge-icon">📜</div>
+                        <div class="cert-info">
+                            <h3 class="cert-title">Introduction to Bash</h3>
+                            <div class="cert-issuer">Microsoft Learn</div>
+                            <div class="cert-year">Microsoft Credential</div>
+                        </div>
+                        <div class="cert-tag">Verified</div>
+                    </div>
+
+                    <!-- Cert 3 -->
+                    <div class="cert-card">
+                        <div class="cert-badge-icon">🚀</div>
+                        <div class="cert-info">
+                            <h3 class="cert-title">Introduction to DevOps</h3>
+                            <div class="cert-issuer">Microsoft Learn</div>
+                            <div class="cert-year">Microsoft Credential</div>
+                        </div>
+                        <div class="cert-tag">Verified</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section-padding edu-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-subtitle">// 08. ACADEMIC BACKGROUND</div>
+                    <h2 class="section-title">Education</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="edu-card">
+                    <div class="edu-header">
+                        <div class="edu-degree-group">
+                            <div class="edu-icon">🎓</div>
+                            <div>
+                                <h3 class="edu-degree">Bachelor of Engineering in Computer Science and Engineering</h3>
+                                <div class="edu-institution">Shri S’ad Vidhya Mandal Institute of Technology</div>
+                                <div class="edu-affiliation">Affiliated to Gujarat Technological University (GTU)</div>
+                            </div>
+                        </div>
+                        <div class="edu-year-badge">2021 – 2025</div>
+                    </div>
+
+                    <div class="edu-cgpa-display">
+                        <div class="cgpa-box">
+                            <span class="cgpa-val">8.77</span>
+                            <span class="cgpa-scale">/ 10.0 CGPA</span>
+                        </div>
+                        <div class="cgpa-desc">
+                            Strong academic record with foundational mastery in computer science, algorithms, operating
+                            systems, networking, and software engineering.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-padding contact-section">
+            <div class="container">
+                <div class="contact-box">
+                    <div class="contact-header text-center">
+                        <div class="section-subtitle">// 09. INITIATE CONNECTION</div>
+                        <h2 class="contact-main-heading">Let's Build Reliable Infrastructure</h2>
+                        <p class="contact-subheading">
+                            Interested in cloud infrastructure, DevOps automation, or production engineering? Let's
+                            connect and engineer resilient solutions together.
+                        </p>
+                    </div>
+
+                    <div class="contact-grid">
+                        <!-- Direct Info Side -->
+                        <div class="contact-info-card">
+                            <h3>Direct Contacts</h3>
+                            <p class="info-intro">Feel free to reach out via email, phone, or connect through
+                                professional networks.</p>
+
+                            <div class="contact-methods">
+                                <a href="mailto:sachi.patel.devops@gmail.com" class="contact-item">
+                                    <div class="contact-icon">📧</div>
+                                    <div class="contact-details">
+                                        <span class="contact-label">Email</span>
+                                        <span class="contact-val">patelsachi.9081@gmail.com</span>
+                                    </div>
+                                </a>
+
+                                <a href="tel:+919876543210" class="contact-item">
+                                    <div class="contact-icon">📞</div>
+                                    <div class="contact-details">
+                                        <span class="contact-label">Phone</span>
+                                        <span class="contact-val">+91 90811 81245</span>
+                                    </div>
+                                </a>
+
+                                <div class="contact-item">
+                                    <div class="contact-icon">📍</div>
+                                    <div class="contact-details">
+                                        <span class="contact-label">Current Role</span>
+                                        <span class="contact-val">Cloud-DevOps Engineer @ Sigzen Technologies</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contact-socials-grid">
+                                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+                                    class="social-btn">LinkedIn Profile</a>
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+                                    class="social-btn">GitHub Profile</a>
+                                <a href="https://hackerrank.com" target="_blank" rel="noopener noreferrer"
+                                    class="social-btn">HackerRank Profile</a>
+                            </div>
+                        </div>
+
+<!-- Contact Form Side -->
+                        <div class="contact-form-card">
+                            <form id="contact-form" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                                <input type="hidden" name="access_key" value="a489ccbf-0f11-4051-9a91-2dbc2e9a2fe5">
+
+                                <div class="form-group">
+                                    <label for="form-name">Name <span class="req">*</span></label>
+                                    <input type="text" id="form-name" name="name" class="form-input"
+                                        placeholder="Your Name or Recruiter Name" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="form-email">Email <span class="req">*</span></label>
+                                    <input type="email" id="form-email" name="email" class="form-input"
+                                        placeholder="name@company.com" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="form-message">Message <span class="req">*</span></label>
+                                    <textarea id="form-message" name="message" class="form-input form-textarea" rows="4"
+                                        placeholder="Briefly describe your inquiry or DevOps opportunity..."
+                                        required></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <line x1="22" y1="2" x2="11" y2="13" />
+                                        <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                                    </svg>
+                                    Send Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <div class="footer-brand">Sachi Patel</div>
+                <div class="footer-role">Cloud &amp; DevOps Engineer</div>
+            </div>
+
+            <div class="footer-center">
+                <div class="footer-status">
+                    <code>system_status: operational [ping: 12ms]</code>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <p>&copy; 2026 Sachi Patel. Built with HTML, CSS &amp; JavaScript.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back To Top Floating Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to Top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M18 15l-6-6-6 6" />
+        </svg>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
